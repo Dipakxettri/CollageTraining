@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html la ng="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>Advanced Iframe Examples</h1>
+    <h2>Choose Contract to View</h2>
+
+    <p>Click on the links below to load different content into the respective viewers.</p>
+    <h3>Primary Viewer</h3>
+    <iframe src="" frameborder="5" height="300" width="500" name="image-video"></iframe><br><br>
+    <a href="matrix.jpg" target="image-video"> View Photo</a> &vert;
+<a href="coding.mp4" target="image-video"> View Video</a> &vert;
+<a href="images/Keith-Boeckner-P.Charles-Brown-Oxford-English-for-Computing_-Answer-Book-Oxford-University-Press-1993.pdf" target="image-video-pdf"> View PDF Decouments</a> &vert;
+<a href="notes.pdf" target="image-video"> View HTML Documents</a>
+
+<h3>Secondary Viewer</h3>
+<iframe src="" frameborder="5" height="300" width="500" name="image-video"></iframe><br><br>
+<a href="images/my pic.jpg" target="image-video"> View Secondary Image</a> &vert;
+<a href="images/Laughing Video.mp4" target="image-video"> View Secondary Video</a>
+<h3> Nested viewers</h3>
+<iframe src="images/Keith-Boeckner-P.Charles-Brown-Oxford-English-for-Computing_-Answer-Book-Oxford-University-Press-1993.pdf" frameborder="5" height="300" width="500" target="PDF"></iframe>
+<p>This nested viewers always shown the 'index copy.html' content.</p>
+<h2>Multi-Purpose Section</h2>
+<p>Click the links below to load either a PDF or an image into a different frame.</p>
+<iframe src="" frameborder="5" height="300" width="500" name="pdf-image"></iframe><br><br>
+<a href="images/Keith-Boeckner-P.Charles-Brown-Oxford-English-for-Computing_-Answer-Book-Oxford-University-Press-1993.pdf" target="pdf-image"> Load PDF</a> &vert;
+<a href="images/my pic.jpg" target="pdf-image"> Load Image</a>
+
+</center>
+</body>

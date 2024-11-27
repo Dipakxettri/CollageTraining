@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        .head{
+            height: 17vh;
+            width: 100%;
+            text-align: center;
+            
+            background-color: rgb(250, 104, 0);
+        }
+        .navBar{
+            text-align: center;
+        }
+        .thead,tfoot{
+            background-color :rgb(255, 104, 49);
+        }
+         
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="head">
+            <h1>HTML Features Showcase </h1>
+            <p>Exploring elements with a structured layout</p>
+        </div>
+        <div class="navBar">
+            <h2>Navigation</h2>
+            <a>Text Formating</a> |
+            <a href="section1">Lists</a> |
+            <a href="">Media</a> |
+            <a href="#section4">Table Example</a> |
+            <a href="">Frames and Iframes</a>
+        </div>
+
+        <div class="body">
+            <ol>
+                <li href="a"><h3 id="section1">Text Formating</h3></li>
+                <p><u><i><b>This text combines bold, underline, and italic formating.</b></i></u></p>
+                <p>Superscript: E = mc <sup>2</sup> and Subscript: H <sub>2</sub>O</p>
+                
+                <blockquote>"This is an example of a blockquote element for emphasizing quotes."</blockquote> -- <b>Albert Einstein</b>
+                <li><h3>Listing Methods</h3></li>
+                
+                <p><b>Nested List Example:</b></p>
+                <ul type="disc">
+                    <li>Frontend Technologies</li>
+                    <ul type="circle">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <li>Backend Technologies</li>
+                    <ul type="circle">
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>PHP</li>
+                    </ul>
+                </ul>
+                <p><b>Custom List Symbols:</b></p>
+                <ol type="A">
+                    <li>Point A</li>
+                    <li>Point B</li>
+                    <li>Point C</li>
+                </ol>
+
+                <li><h3>Media elements</h3></li>
+                <p><b>Responsive Image Example:</b></p>
+                <img src="matrix.jpg" alt="MatrixResponsiveImage" width="100%">
+                <p><b>Video Example:</b></p>
+                <video src=""   controls class="vedio">
+                    <source src="">
+                </video>
+                <p><b>Audio Example:</b></p>
+                <audio src="" controls>
+                    <source src="">
+                </audio>
+
+                <li><h3 id="section4">Advance Table Example:</h3></li>
+                <section href="table">
+
+                    </div>
+                    <table border="1" cellspacing = "0" padding = "40" width = "100%" id="section4">
+                        <caption><b>Student Performance</b></caption>
+                        <thead class="thead">
+                           <tr>
+                            <th rowspan="2">Student Name </th>
+                            <th colspan="3">Subjects</th>
+                            <th rowspan="2">Average</th>
+                           
+                           </tr>
+                           <tr>
+                            
+                            <th>Math</th>
+                            <th>Science</th>
+                            <th>English</th>
+                           
+                           </tr>
+                        </thead>
+                           <tbody>
+                            <tr>
+                                <td>John Doe</td>
+                                <td>85</td>
+                                <td>78</td>
+                                <td>92</td>
+                                <td>85.0</td>
+                            </tr>
+                            <tr>
+                                <td>Jane Smith</td>
+                                <td>85</td>
+                                <td>91</td>
+                                <td>84</td>
+                                <td>87.7</td>
+                            </tr>
+                           </tbody>
+                           <tfoot class="tfoot">
+                            <tr>
+                                <th colspan="5">End of Date</th>
+                            </tr>
+                           </tfoot>
+                      
+                        
+                    </table>
+                </section>
+                
+
+                <li><h3>Frames and Ifeames</h3></li>
+                <p><b>Iframe Example:</b></p>
+                <p>Embedded Wikipedia:</p>
+                <iframe src="https://www.wikipedia.org/" frameborder="0" height="300" width="60%"></iframe>
+
+                <p><h4>Frameset Example:</h4></p>
+                <p>Simulating a split layout:</p>
+                <hr>
+                <p style="text-align: center;">&#169; 2024 Advance HTML Features Showcase | All Rights Reserved.</p>
+            
+            </ol>
+        </div>
+    </div>
+
+    <marquee behavior="matrix" direction="alternate" width="100px" style="background-color: aqua;">vvv</marquee>
+    
+</body>
+</html>

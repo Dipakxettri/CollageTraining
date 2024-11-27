@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10</title>
+    <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+
+            body{
+                background-color: rgb(236, 230, 230);
+            }
+            .container{
+                height: 540px;
+                width: 380px;
+                box-shadow: 5px 7px 20px black;
+                /* box-shadow: 20px 16px 20px 0px black; */
+                background-color: white;
+                margin: auto;
+                margin-top: 40px;
+
+            }
+
+            
+
+            .inputF{
+                height: 40%;
+                /* border: 1px solid black; */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                
+            }
+
+            .head{
+                height: 10%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            input{
+                padding-left: 10px;
+                height: 22%;
+                width: 80%;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+
+            input:hover{
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+
+            input:active{
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+
+
+
+            .loginButton{
+                height: 14%;
+                /* border: 1px solid black; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .loginButton button{
+                height: 50%;
+                width: 80%;
+                background-color: blue;
+                color: white;
+                border: none;
+            }
+            .forgotPS{
+                display: flex;
+                justify-content: center;
+                height: 8%;
+                /* border: 1px solid black; */
+               
+            }
+
+            .forgotPS a{
+                text-decoration: none;
+            }
+
+            .signUP{
+                height: 10%;
+                /* border: 1px solid black; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .signUP button{
+
+                height: 56%;
+                width: 80%;
+            }
+            .toggleB{
+                height: 6%;
+                /* border: 1px solid black; */
+                width: 28%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .toggleB button{
+                border: none;
+                height: 80%;
+                width: 80%;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="toggleB">
+            <button>Dark Mode</button>
+        </div>
+        <div class="head">
+            <h2>Login Here</h2>
+        </div>
+        <div class="inputF">
+            <input type="email" placeholder="Enter your email" required>
+            <input type="password" placeholder="Enter your password" required>
+        </div>
+        <div class="loginButton">
+            <button>Login</button>
+        </div>
+        <div class="forgotPS">
+            <a href="forget.html" target="_blank">forgot password?</a>
+        </div>
+        <div class="signUP">
+            <button>sign up</button>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="script.js">
+    
+</body>
+</html>
